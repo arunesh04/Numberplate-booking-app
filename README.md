@@ -1,6 +1,6 @@
 # Fancy Number Plate App Docker Compose Setup
 
-This repository contains a Docker Compose configuration for deploying and running the Fancy Number Plate application, which consists of frontend and backend services along with a MongoDB database.
+🚀 This repository contains a Docker Compose configuration for deploying and running the Fancy Number Plate application, which consists of frontend and backend services along with a MongoDB database.
 
 ## Prerequisites
 
@@ -37,9 +37,9 @@ To run the Fancy Number Plate application using Docker Compose, follow these ste
 
 This Docker Compose setup includes the following services:
 
-- **db (MongoDB)**: A MongoDB database service.
-- **frontend**: The frontend service of the Fancy Number Plate application, built using the provided Dockerfile in the `FancyNumberPlace_Frontend` directory.
-- **backend**: The backend service of the Fancy Number Plate application, built using the provided Dockerfile in the `FancyNumberPlate_Backend` directory.
+- **📦 db (MongoDB)**: A MongoDB database service.
+- **🖥️ frontend**: The frontend service of the Fancy Number Plate application, built using the provided Dockerfile in the `FancyNumberPlace_Frontend` directory.
+- **🛠️ backend**: The backend service of the Fancy Number Plate application, built using the provided Dockerfile in the `FancyNumberPlate_Backend` directory.
 
 ## Configuration
 
@@ -58,3 +58,5 @@ To manage the Docker Compose setup and its services, you can use the following c
 ## Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or create a pull request.
+
+--- 
