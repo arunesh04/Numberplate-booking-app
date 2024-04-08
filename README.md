@@ -1,6 +1,6 @@
-# Number Plate Booking APP
+# Fancy Number Plate App Docker Compose Setup
 
-This repository contains a Docker Compose configuration for deploying and Number plate application. This setup simplifies the deployment process and provides an easy way to manage the application's environment.
+This repository contains a Docker Compose configuration for deploying and running the Fancy Number Plate application, which consists of frontend and backend services along with a MongoDB database.
 
 ## Prerequisites
 
@@ -11,7 +11,7 @@ Before getting started, ensure that you have the following installed on your sys
 
 ## Getting Started
 
-To run the application using Docker Compose, follow these steps:
+To run the Fancy Number Plate application using Docker Compose, follow these steps:
 
 1. Clone this repository to your local machine:
 
@@ -31,21 +31,19 @@ To run the application using Docker Compose, follow these steps:
    docker-compose up -d
    ```
 
-5. Once the containers are up and running, you can access the application at `http://localhost:port`, where `port` is the port number specified in the `.env` file or in the `docker-compose.yml` file.
-
-## Configuration
-
-The configuration for the application and its services can be found in the following files:
-
-- `docker-compose.yml`: Defines the services, networks, and volumes for the Docker Compose setup.
+4. Once the containers are up and running, you can access the frontend of the application at `http://localhost:8080` and interact with the backend API at `http://localhost:5000`.
 
 ## Services
 
 This Docker Compose setup includes the following services:
 
-- **Service 1**: Description of service 1.
-- **Service 2**: Description of service 2.
-- (Add more services as necessary)
+- **db (MongoDB)**: A MongoDB database service.
+- **frontend**: The frontend service of the Fancy Number Plate application, built using the provided Dockerfile in the `FancyNumberPlace_Frontend` directory.
+- **backend**: The backend service of the Fancy Number Plate application, built using the provided Dockerfile in the `FancyNumberPlate_Backend` directory.
+
+## Configuration
+
+The configuration for the application and its services can be found in the `docker-compose.yml` file. You can customize the ports, volumes, and other settings according to your requirements.
 
 ## Management
 
