@@ -1,0 +1,23 @@
+version: '3'
+services:
+  db:
+    image: mongo:latest
+    volumes: 
+     - database:/data/db
+    ports:
+      - 27018:27017
+  frontend:
+    build:
+      context: ./FancyNumberPlace_Frontend
+      dockerfile: Dockerfile
+    ports:
+      - 8080:80
+  backend:
+    build:
+      context: ./FancyNumberPlate_Backend
+      dockerfile: Dockerfile
+    ports:
+      - 5000:3000
+
+volumes:
+  database:
