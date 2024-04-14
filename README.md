@@ -31,7 +31,7 @@ To run the Fancy Number Plate application using Docker Compose, follow these ste
    docker-compose up -d
    ```
 
-4. Once the containers are up and running, you can access the frontend of the application at `http://localhost:8080` and interact with the backend API at `http://localhost:5000`.
+4. Once the containers are up and running, you can access the frontend of the application at `http://localhost:8080` and interact with the backend API at `http://www.numberplate.com`.
 
 ## Services
 

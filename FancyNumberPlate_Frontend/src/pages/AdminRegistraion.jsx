@@ -29,7 +29,7 @@ const AdminRegistrationPage = () => {
         
       };
 
-      const response = await axios.post('http://localhost:5000/api/admin', adminData);
+      const response = await axios.post('http://www.numberplate.com/api/admin', adminData);
 
       console.log(response.data); 
 

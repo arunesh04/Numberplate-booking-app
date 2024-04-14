@@ -7,6 +7,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+console.log("Server started")
 connectdb()
     .then(()=>{console.log('db connected')})
     .catch((err)=>{console.log(err)});

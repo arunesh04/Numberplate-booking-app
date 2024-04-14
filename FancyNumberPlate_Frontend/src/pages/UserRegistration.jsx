@@ -30,7 +30,7 @@ const UserRegistration = () => {
         region,
       };
 
-      const response = await axios.post('http://localhost:5000/api/user', userData);
+      const response = await axios.post('http://www.numberplate.com/api/user', userData);
       console.log(response.data);
       
       setName('');

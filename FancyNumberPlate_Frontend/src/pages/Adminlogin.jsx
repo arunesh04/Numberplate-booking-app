@@ -27,7 +27,7 @@ const AdminLogin = () => {
     e.preventDefault();
 
     try {
-            const response = await axios.get(`http://localhost:5000/api/admin/get/${id}`);
+            const response = await axios.get(`http://www.numberplate.com/api/admin/get/${id}`);
             console.log(response.data)
             if(response.data.name === name && response.data.password === password){
                 console.log(response.data)
