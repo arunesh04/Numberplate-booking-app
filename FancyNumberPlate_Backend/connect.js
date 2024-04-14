@@ -1,1 +1,5 @@
-¤&Òn¡‰j^±Ü Äñ(¿Älg9üå[¡ò¯ğÃMrü–çêV9´"„¯GGá,—Âó"¢ìKÚûG¡k ¦µ¾×PL»©úIKüKòÍ´U³éÛzšôøüé›=­¾`œ':ÌÂLn!–<äK¼ÿê¾[¾,Œµšs
+const mongoose = require('mongoose')
+
+module.exports.connectdb = ()=>{
+    return mongoose.connect("mongodb://127.0.0.1:27017/Fancyno")
+}
