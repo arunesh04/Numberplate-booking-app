@@ -27,7 +27,7 @@ const UserLogin = () => {
     e.preventDefault();
 
     try {
-            const response = await axios.get(`http://www.numberplate.com/api/user/get/${name}`);
+            const response = await axios.get(`http://localhost:5000/api/user/get/${name}`);
             if(response.data.email === email && response.data.password === password){
                 console.log(response.data)
                 localStorage.setItem('emailu', email);
